@@ -24,10 +24,21 @@ public class Constants {
         public static final By SELECT_MY_CITY_MENU = By.cssSelector("#delivery > div > div > div > button");
         public static final By CONFIRM_CHOICE = By.cssSelector("#restaurant-888 > div > div.restaurants-list-item__controls > button");
         public static final By CHECK_PLACE = By.cssSelector("#bannerRestaurantContent > span:nth-child(2)");
-
+        public static final String SELECT_MENU = "https://vkusnoitochka.ru/menu";
+        public static final String SELECT_KAFE = "https://vkusnoitochka.ru/cafe";
+        public static final String SELECT_SUPER_BOX = "https://vkusnoitochka.ru/superbox";
+        public static final String SELECT_KIDS_COMBO = "https://vkusnoitochka.ru/kidscombo";
+        public static final String SELECT_QUALITY = "https://vkusnoitochka.ru/quality";
+        public static final String SELECT_MY_BONUS = "https://vkusnoitochka.ru/bonus";
+        public static final String SELECT_MAP = "https://vkusnoitochka.ru/restaurants/map";
+        public static final String SELECT_NEWS = "https://vkusnoitochka.ru/articles/news";
+        public static final String SELECT_ABOUT_US = "https://vkusnoitochka.ru/company";
+        public static final By FOOTER_NAVIGATION = By.cssSelector("#__layout > div > footer > div.footer__nav > div > ul");
+        public static final By ELEMENTS_FROM_MENU_CATEGORIES = By.cssSelector("#menuOuter > div > div.menu-categories__wrap");
+        public static final By FOOTER_INFO = By.cssSelector("#__layout > div > footer > div.footer__info");
     }
     public static class TimeOutVariable{
-        public static final int IMPLICIT_WAIT = 10;
-        public static final int EXPLICIT_WAIT = 10;
+        public static final int IMPLICIT_WAIT = 15;
+        public static final int EXPLICIT_WAIT = 20;
     }
 }

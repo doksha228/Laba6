@@ -1,10 +1,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="Suite2" verbose="1">
-    <test name="SearchTests">
+<suite name="Suite4" verbose="1">
+    <test name="ParseTests">
         <groups>
             <run>
-                <include name="search"/>
+                <include name="parse"/>
             </run>
         </groups>
         <classes>
